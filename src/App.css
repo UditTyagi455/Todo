@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-div{
+  height: 100vh;
+  width: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+ 
+}
+.div2{
+  border: 2px solid white;
+  box-shadow: 15px 15px 15px  rgba(0,100,100,0.5);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  align-items: center;
+  background-color: cyan;
+  max-width: 650px;
+  height: 700px;
+  width: 500px;
+  overflow-y: auto;
+}
+.div2 h1{
+  color: #111;
+  margin-bottom: 1rem;
+}
+.div2 input{
+  margin: 10px 0px;
+  padding: 15px 5px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+  width: 100%;
+}
+.div2btn{
+  padding: 13px 19px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: #333333;
+  color: white;
+  border-radius: 7px;
+}
+.div2 .div3{
+  border: 1px solid white;
+  padding: 6px 4px;
+  margin: 10px 0px;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.btn1{
+  /* padding: 3px 5px; */
+  font-size: 1.3rem;
+  border: none;
+  margin-right: 6px;
+  height: 40px;
+  width: 60px;
+  cursor: pointer;
+}
+.btn2{
+  /* padding: 3px 5px; */
+  font-size: 1.3rem;
+  border: none;
+  height: 40px;
+  width: 60px;
+  cursor: pointer;
+}
+.div3 span{
+  width: 100%;
+  display: flex;
+}
+.rmbtn{
+  padding: 9px 26px;
+  background-color: #333333;
+  color: white;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+@media only screen and (max-width: 500px) {
+  .main-div {
+    background-color: lightblue;
+  }
+  .div2{
+      margin: 0;
+      height: 100%;
+  }
+}
